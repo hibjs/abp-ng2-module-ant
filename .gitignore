@@ -1,0 +1,27 @@
+# Node
+node_modules/*
+npm-debug.log
+*.ngsummary.json
+dist/*
+!dist/package.json
+
+# TypeScript
+*.js
+*.map
+*.d.ts
+!rollup.config.js
+
+# JetBrains
+.idea
+.project
+.settings
+.idea/*
+*.iml
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Mac
+.DS_Store
+**/.DS_Store
